@@ -39,7 +39,7 @@ function VideoLink({setCommentLists, setVideo, updateVariable, minutes, seconds,
     }
     return (
         <>
-            <span onClick={onSubmit} style={{ color: 'gray' }}>
+            <span onClick={onSubmit} style={{ color: 'gray', cursor: 'pointer'}}>
                 <span style={{ fontSize: '1rem', color: 'black' }}>{video.title}  </span><br />
                 <span>{video.writer.name}</span><br />
                 <span>{video.views}</span><br />

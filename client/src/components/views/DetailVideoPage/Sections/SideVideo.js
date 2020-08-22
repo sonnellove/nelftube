@@ -26,9 +26,7 @@ function SideVideo(props) {
 
         return <div key={index} style={{ display: 'flex', marginTop: '0rem', padding: '0 2rem' }}>
             <div style={{ width: '40%', marginRight: '1rem' }}>
-                <Link to={`/video/${video._id}`} style={{ color: 'gray' }}>
                     <img style={{ width: '100%' }} src={`http://localhost:5000/${video.thumbnail}`} alt="thumbnail" />
-                </Link>
             </div>
 
             <div style={{ width: '50%' }}>
