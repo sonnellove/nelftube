@@ -56,7 +56,7 @@ function UpdatePost(props) {
                     <div className="app__posts__left">
                         <div className="post">
                             <div className="post__header">
-                                <Avatar className="post__avatar" alt={onePost.writer.name} src={`http://localhost:5000/${onePost.writer.profile}`} />
+                                <Avatar className="post__avatar" alt={onePost.writer.name} src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${onePost.writer.profile}`} />
                                 <h3>
                                     <Link to={`/timeline/${onePost.writer._id}`}>{onePost.writer.name} {onePost.writer.lastname}</Link>
                                     <br />

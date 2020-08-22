@@ -54,7 +54,7 @@ function Profile(props) {
             {posts[0] &&
                 <>
                     <div className="app__Cover">
-                        <img style={{ width: '100%' }} src={`http://localhost:5000/${posts[0].writer.cover}`} />
+                        <img style={{ width: '100%' }} src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${posts[0].writer.cover}`} />
                     </div>
                         <p><Link to="/changeCover">Change Cover</Link></p>
                     {/* <div className="app__Cover__name">

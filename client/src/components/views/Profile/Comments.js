@@ -103,7 +103,7 @@ function Comments({
             <div className="post__comment">
               <div className="post__comment__container">
                 <div className="post__header">
-                  <Avatar className="post__avatar" alt={writer.name} src={`http://localhost:5000/${writer.profile}`} />
+                  <Avatar className="post__avatar" alt={writer.name} src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${writer.profile}`} />
                   <h3>
                     <strong>
                       <Link to={`/timeline/${writer._id}`}>{writer.name} {writer.lastname}</Link>

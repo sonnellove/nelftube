@@ -112,7 +112,7 @@ function Post({
           <Avatar
             className="post__avatar"
             alt={writer.name}
-            src={`http://localhost:5000/${writer.profile}`}
+            src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${writer.profile}`}
           />
         ) : (
           <Avatar className="post__avatar" alt={writer.name} />

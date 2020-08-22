@@ -29,7 +29,7 @@ function PostImage(props) {
                         {image.images && image.images.length > 0 &&
                             image.images.map((item, index) =>
                                 <React.Fragment key={index}>
-                                    <img key={index} src={`http://localhost:5000/${item}`} alt={`postImg-${index}`} />
+                                    <img key={index} src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${item}`} alt={`postImg-${index}`} />
                                 </React.Fragment>
                             )
                         }

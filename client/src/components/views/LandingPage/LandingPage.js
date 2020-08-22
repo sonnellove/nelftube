@@ -31,7 +31,7 @@ function LandingPage() {
         return <Col key={index} lg={6} md={8} xs={24}>
             <div style={{ position: 'relative', margin: '0 5px 0 5px' }}>
                 <Link to={LinkTo} >
-                    <img style={{ width: '100%' }} alt="thumbnail" src={`http://localhost:5000/${video.thumbnail}`} />
+                    <img style={{ width: '100%' }} alt="thumbnail" src={`https://raw.githubusercontent.com/sonnellove/nelftube/master/${video.thumbnail}`} />
                     <div className=" duration"
                         style={{
                             bottom: 0, right: 0, position: 'absolute', margin: '4px',
